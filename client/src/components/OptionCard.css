@@ -1,0 +1,26 @@
+.option-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #cfded1;
+    border-radius: 50%;
+}
+
+.option-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}

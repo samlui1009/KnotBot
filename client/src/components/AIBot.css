@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.ai-bot-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ask-btn {
+    border-radius: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid #f5cfcf;
+    background-color: #f5cfcf;
+    color: #4e5e4c;
+    cursor: pointer;
+    padding: 10px;
+}
