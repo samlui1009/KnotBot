@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfded1;
+    border-bottom: 5px solid #7d8d79;
+}
+/* Flex permits arrangement of items in a row, and space-between pushes the logo and nav to 
+the left and right
+Align-items makes them line up vertically */
+
+.name {
+    width: 100px;
+}

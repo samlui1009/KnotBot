@@ -1,0 +1,14 @@
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-options {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #5c6c59;
+    /* Gap gives spacing between each item! */
+}
