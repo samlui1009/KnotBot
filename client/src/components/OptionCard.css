@@ -3,14 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-radius: 25px;
     padding: 10px;
     cursor: pointer;
 }
 
+.option-title {
+    font-size: 1.75em;
+}
+
 .description {
     text-align: center;
+    font-size: 1.5em;
 }
 
 .icon {

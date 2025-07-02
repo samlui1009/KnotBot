@@ -1,4 +1,6 @@
 import './NavBar.css'
+import { IoChatbox, IoInformation, IoInformationCircle } from "react-icons/io5";
+import { GoHistory } from "react-icons/go";
 
 function NavBar() {
 
@@ -6,9 +8,9 @@ function NavBar() {
     <>
         <div className = "nav-container">
             <ul className = "nav-options">
-                <li>Home</li>
-                <li>About KnotBot</li>
-                <li>Contact Us</li>
+               <li><IoInformationCircle></IoInformationCircle>About KnotBot</li>
+               <li><IoChatbox></IoChatbox>Chat With KnotBot</li>
+               <li><GoHistory></GoHistory>Chat History</li>
             </ul>
         </div>
     </>

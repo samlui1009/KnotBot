@@ -8,13 +8,18 @@
 }
 
 .ask-btn {
-    border-radius: 25px;
+    border-radius: 50px;
     font-family: "Quicksand", sans-serif;
-    font-size: 20px;
+    font-size: 1.75em;
     font-weight: bold;
     border: 5px solid #f5cfcf;
     background-color: #f5cfcf;
     color: #4e5e4c;
     cursor: pointer;
     padding: 10px;
+    margin-bottom: 50px;
+}
+
+.help-tagline {
+    font-size: 2em;
 }

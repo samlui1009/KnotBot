@@ -1,5 +1,12 @@
 .footer {
+    margin-top: auto;
+    background-color: #cfded1;
+    border-top: 5px solid #7d8d79;;
 }
 
 .footer-contents {
+    display: flex;
+    font-size: 1.25em;
+    align-items: center;
+    justify-content: center;
 }

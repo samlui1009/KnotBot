@@ -10,5 +10,11 @@
     padding-right: 10px;
     font-weight: bold;
     color: #5c6c59;
+    font-size: 1.25em;
     /* Gap gives spacing between each item! */
+}
+
+.github-link {
+    text-decoration: none;
+    width: 25px;
 }
